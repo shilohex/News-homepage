@@ -5,6 +5,7 @@
   margin: 0;
 }
 
+/* header design */
 .body-sec {
   display: flex;
   flex-direction: column;
@@ -15,7 +16,7 @@
   /* margin-top: 10%; */
 }
 .body-sec img {
-  width: 100px;
+  width: 70px;
 }
 .header-sec-fit {
   display: flex;
@@ -32,15 +33,18 @@ a {
   text-decoration: none;
   color: hsl(236, 13%, 42%);
 }
+
+/* image section design */
 .back-ground-img {
   display: flex;
   flex-direction: column;
 }
 
+.main-section {
+  max-width: 7000px;
+}
 .back-ground-img img {
-  /* background-image: url("./assets/images/image-web-3-desktop.jpg");
-  background-repeat: no-repeat; */
-  margin-top: 2rem;
+  margin-top: 3rem;
   width: 1130px;
   height: 350px;
 }
@@ -52,12 +56,47 @@ a {
   display: flex;
   gap: 2rem;
 }
+.img-sec-box {
+  display: flex;
+  flex-direction: column;
+}
+
+/* bright future web */
+.second-sec-3 {
+  border: 1px solid red;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: justify;
+  margin-inline: auto;
+  gap: 3rem;
+  width: 1130px;
+}
+.bright-web {
+  border: 1px solid green;
+  max-width: 300px;
+}
+.bright-web h1 {
+  font-size: 3.5rem;
+  text-align: left;
+  font-weight: 800;
+}
+.dive-into-promise {
+  border: 1px solid blue;
+  padding: 3rem;
+  font-size: 1rem;
+}
+
+/* black border design */
 .black-border-box {
   border: 1px solid black;
-  margin-top: 2rem;
-  padding: 2rem;
+  margin-top: 3rem;
+  padding: 1rem;
   background-color: hsl(240, 100%, 5%);
   gap: 1rem;
+  width: 500px;
+  height: 540px;
 }
 .border-sec-2 {
   display: flex;
@@ -71,7 +110,7 @@ a {
 }
 .black-border-box p {
   color: hsl(36, 100%, 99%);
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   font-size: 1rem;
 }
 span {
@@ -82,12 +121,10 @@ h6 {
   color: hsl(36, 100%, 99%);
   margin-top: 1rem;
   font-weight: 100;
-  font-size: 0.9rem;
-
-  /* padding: 1rem; */
+  font-size: 1.1rem;
 }
 hr {
   margin-top: 1rem;
-  color: hsl(36, 100%, 99%);
+  color: grey;
   height: 1px;
 }
