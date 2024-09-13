@@ -64,28 +64,33 @@ a {
 /* bright future web */
 .second-sec-3 {
   border: 1px solid red;
-  margin-top: 1rem;
+  margin-top: 2rem;
   display: flex;
   justify-content: center;
   align-content: center;
   text-align: justify;
   margin-inline: auto;
-  gap: 3rem;
+  /* gap: 7rem; */
+  /* padding: 20px; */
   width: 1130px;
 }
 .bright-web {
-  border: 1px solid green;
-  max-width: 300px;
+  /* border: 1px solid green; */
+  max-width: 400px;
 }
 .bright-web h1 {
-  font-size: 3.5rem;
+  font-size: 4rem;
   text-align: left;
   font-weight: 800;
+  line-height: 70px;
 }
 .dive-into-promise {
   border: 1px solid blue;
-  padding: 3rem;
+
   font-size: 1rem;
+  font-size: 20px;
+  max-width: 450px;
+  line-height: 30px;
 }
 
 /* black border design */
@@ -121,7 +126,7 @@ h6 {
   color: hsl(36, 100%, 99%);
   margin-top: 1rem;
   font-weight: 100;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 hr {
   margin-top: 1rem;
